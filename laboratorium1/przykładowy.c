@@ -14,14 +14,18 @@ float wynik = (a*b) - (c*a) - (b*c);
 printf ("%f\n", wynik);
 return 0;
 int a,b,c;
-if ((a>b) && (b>c) && (a>c)) {
-  printf ("%d, %d, %d\n " ,c,b,a);
-} else if ((b>c) && (b>a) && (a>c)) {
-  printf ("%d, %d, %d\n" ,c,a,b);
-} else if ((c>b) && (c>a) && (b>a)) {
+if ((a>b) && (c>a) && (c>b)) {
+  printf ("%d, %d, %d\n " ,c,a,b);
+} else if ((a>b) && (a>c) && (b>c)) {
   printf ("%d, %d, %d\n" ,a,b,c);
-} else if ( (c>a) && (c>b) && (b>a)) {
-  printf("%d, %d, %d\n",c,a,b);
+} else if ((a>b) && (a>c) && (c>b)) {
+  printf ("%d, %d, %d\n" ,a,c,b);
+} else if ( (b>a) && (c>b) && (c>a)) {
+  printf("%d, %d, %d\n",c,b,a);
+} else if ((b>a) && (b>c) && (c>a)) {
+  printf ("%d, %d, %d\n" ,b,c,a);
+} else if ( (b>a) && (b>c) && (a>c)) {
+  printf("%d, %d, %d\n",b,a,c);
 }
 else {
 
