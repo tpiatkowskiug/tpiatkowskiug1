@@ -4,41 +4,6 @@ int main () {
 float a;
 float b;
 float c;
-scanf("%f", &a);
-printf("%f\n", a);
-scanf ("%f", &b);
-printf("%f\n", b);
-scanf ("%f", &c);
-printf("%f\n", c);
-float wynik = (a*b) - (c*a) - (b*c);
-printf ("%f\n", wynik);
-return 0;
-}
-
-#include <stdio.h>
-
-int main () {
-float a;
-float b;
-float c;
-scanf("%f", &a);
-printf("%f\n", a);
-scanf ("%f", &b);
-printf("%f\n", b);
-scanf ("%f", &c);
-printf("%f\n", c);
-float wynik = (a*b) - (b/c);
-printf ("%f\n", wynik);
-return 0;
-}
-
-  
-#include <stdio.h>
-
-int main () {
-float a;
-float b;
-float c;
 printf ("\nprogram podaje liczy od najmniejszej\n");
 scanf ("%f", &a);
 scanf ("%f", &b);
@@ -59,4 +24,3 @@ if ((a>b) && (c>a) && (c>b)) {
 
 return 0;
 }
-
