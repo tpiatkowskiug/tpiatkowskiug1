@@ -15,21 +15,21 @@ for (int i = 0; i < 7; i=i+1) {
   if (tab[i]>max){max=tab[i];
 }
 }
-printf("max = %d",max );
+printf("max = %d\n", max );
   //liczby najmnijesza/
   for (int i = 0; i < 7; i=i+1) {
   if (tab[i]<min) {min=tab[i];
 
 }
 }
-printf("min = %d",min );
+printf("min = %d\n",min );
   //średnia arytmetyczna elemetów tablicy
   for (int i = 0; i < 7; i=i+1){
   suma = suma + tab [i];
   srednia = (double) suma/ i;
 
 }
-  printf ("Suma: %d, średnia: %f\n\n" ,suma, srednia);
+  printf ("suma: %d\nsrednia: %f\n" ,suma, srednia);
  //ilości liczby większej od stu/
   for (int i = 0; i < 7; i=i+1) {
   if (tab[i]<100){
