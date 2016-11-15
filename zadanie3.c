@@ -5,8 +5,8 @@ int tab [7];
 int max=-99999;
 int min=99999;
 int suma=0;
+int ilosc=0;
 double srednia;
-int nLiczba=0;
 for (int i = 0; i < 7; i=i+1) {
   scanf("%d", &tab[i]);
 }
@@ -32,10 +32,10 @@ printf("min = %d\n",min );
  //ilości liczb większej od stu
  printf ("\nilości liczb większej od stu\n");
   for (int i = 0; i < 7; i=i+1) {
-  tab[i] >100;
-  nLiczba = tab [i];
-}
-printf ("nLiczba= %d\n", nLiczba);
+  ilosc = ilosc + (tab[i] > 100);
 
+
+}
+printf ("ilosc = %d\n", ilosc);
 return 0;
 }
