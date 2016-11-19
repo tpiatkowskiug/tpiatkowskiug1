@@ -9,7 +9,7 @@ scanf ("%d", &wantcontinue);
 while (wantcontinue == 1){
   printf("podaj liczbe: \n");
   scanf("%d", &x);
-  sum += x;
+  sum += x*x;
 printf("Czy kontynuowac (1-tak/0-nie)? \n");
 scanf ("%d", &wantcontinue);
 
